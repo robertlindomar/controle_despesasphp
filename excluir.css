@@ -1,0 +1,18 @@
+/* Estilos para o botão de exclusão delicado */
+.delete-button {
+    background-color: transparent; /* Cor de fundo transparente */
+    color: #ff4444; /* Cor do texto vermelha */
+    padding: 2px 5px; /* Espaçamento interno mínimo para o botão */
+    border: 1px solid #ff4444; /* Borda fina vermelha */
+    border-radius: 4px; /* Borda arredondada */
+    text-decoration: none; /* Remova a decoração de texto */
+    cursor: pointer; /* Ícone de cursor de mão ao passar o mouse */
+    transition: background-color 0.3s, color 0.3s; /* Efeito de transição suave */
+}
+
+.delete-button:hover {
+    background-color: #ff4444; /* Cor de fundo vermelha ao passar o mouse */
+    color: #fff; /* Cor do texto branca ao passar o mouse */
+}
+
+

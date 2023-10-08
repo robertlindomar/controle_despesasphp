@@ -1,0 +1,14 @@
+/* Estilo do botão de exclusão delicado */
+.delete-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: var(--negative-color); /* Use a cor de destaque negativa */
+    font-size: 16px;
+    transition: color 0.3s ease; /* Adicione uma transição suave para a cor do texto */
+  }
+  
+  .delete-button:hover {
+    color: #ff4444; /* Cor mais brilhante ao passar o mouse */
+  }
+  
